@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F6F6F3;
+    font-family: "Poppins", serif;
+}
+header{
+    box-shadow: 5px solid black;
+    background-color: #ffffff;
+    padding: 7px 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: rgb(223, 112, 8);
+    text-decoration: none;
+}
+
+.service {
+    
+}
+.service .container{
+    margin: 55px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 45px;
+
+}
+.card-cont{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    border-radius: 20px;
+    gap: 50px;
+    background-color: #ffffff;
+}
+.card-top{
+    gap: 7px;
+    border-bottom: 1px dotted black;
+    padding: 10px 0;
+}
+.card button{
+    background-color: #2E6434;
+    width: 352px;
+    height: 64px;
+    border: 1px solid #2E6434;
+    border-radius: 12px;
+
+    color: #ffffff;
+}
+.card button:hover{
+    transition: 500ms;
+    background-color: #ffffff;
+    width: 352px;
+    height: 64px;
+    border-radius: 12px;
+    color: #2E6434;
+}
+.con-section{
+    background-color: #fafafa;
+}
+.con-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fafafa;
+    margin: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 772px;
+    width: 100%;
+    padding: 70px 40px;
+    padding-left: 160px;
+    
+}
+form{
+    margin: 30px 0px;
+
+}
+form .name{
+    display: flex;
+    gap: 10px;
+}
+form .nm{
+    height: 25px;
+}
+form .email{
+    width: 351px;
+    height: 25px;
+}
+form .msg{
+    width: 351px;
+    height: 87px;
+}
+form button{
+    background-color: #219653;
+    width: 351px;
+    height: 27px;
+    border: 1px solid #219653;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+form input{
+    border: 1px solid rgb(141, 139, 139);
+    border-radius: 3px;
+}
+
+.address{
+    background-color: #F6F6F3;
+    display: flex;
+    flex-direction: column;
+    max-width: 772px;
+    width: 100%;
+    padding: 70px 40px;
+    gap: 20px;
+}
+.address .add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+.bottom ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.bottom ul a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.bottom ul a:hover{
+    color: rgb(223, 112, 8);
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
